@@ -1,4 +1,6 @@
-# GitHub Pages / Jekyll configuration
+# GitHub Pages configuration
+# Using pure static HTML, Jekyll bypassed via .nojekyll.
+# File kept for metadata preservation only.
 
 title: İlker Kara
 description: Software Engineer — AI/ML, Quant Systems, Security
@@ -12,20 +14,3 @@ author:
   linkedin: ilker-kara
   twitter: ilkerkara_
   location: Ankara, Turkey
-
-# Theme — GitHub Pages supports these out of the box without a Gemfile.
-# Swap for any other supported theme name if you prefer.
-theme: jekyll-theme-minimal
-
-markdown: kramdown
-kramdown:
-  input: GFM
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock

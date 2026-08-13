@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İlker Kara — Software Engineer · AI/ML · Quant · Security</title>
+  <meta name="description" content="İlker Kara — Software Engineer specializing in AI/ML infrastructure, quantitative trading systems, and security. Ankara, Turkey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#top">
+      <span class="nav__sigil">~/</span>ilker<span class="nav__accent">.dev</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#focus">Focus</a>
+      <a href="#projects">Projects</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+      <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal__bar">
+          <span class="dot dot--red"></span><span class="dot dot--amber"></span><span class="dot dot--green"></span>
+          <span class="terminal__title">ilker@homelab: ~</span>
+        </div>
+        <pre class="terminal__body"><span class="term-prompt">$</span> whoami
+<span class="term-out">ilker_kara</span> — software engineer
+<span class="term-prompt">$</span> cat ./focus.txt
+<span class="term-out">ai/ml_infra · quant_systems · security</span>
+<span class="term-prompt">$</span> <span class="term-cursor" id="heroCursor">_</span></pre>
+      </div>
+
+      <div class="hero__copy">
+        <p class="eyebrow">Software Engineer · Ankara, TR 🇹🇷</p>
+        <h1 class="hero__name" id="hero-name">İlker&nbsp;Kara</h1>
+        <p class="hero__role">
+          I build <strong>AI/ML infrastructure</strong>, <strong>quantitative trading systems</strong>,
+          and <strong>security tooling</strong> — most of it running on my own hardware.
+        </p>
+        <div class="hero__status">
+          <span class="status-pill"><span class="status-pill__dot"></span>Building a self-hosted AI homelab</span>
+        </div>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects">View work</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="social" aria-label="Social links">
+          <li><a href="https://github.com/karailker" aria-label="GitHub" rel="me">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ilker-kara/" aria-label="LinkedIn" rel="me">LinkedIn</a></li>
+          <li><a href="https://twitter.com/ilkerkara_" aria-label="X / Twitter" rel="me">X</a></li>
+          <li><a href="https://ilkerkara.com.tr" aria-label="Personal site" rel="me">Site</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-h">
+      <h2 class="section__title" id="about-h"><span class="section__idx">01</span> About</h2>
+      <div class="about">
+        <p class="about__lead">
+          5+ years shipping scalable systems across quantitative engineering, AI/ML infrastructure,
+          and security. I like open source, running things myself, and guardrails that keep
+          autonomous agents honest.
+        </p>
+        <ul class="facts">
+          <li><span class="facts__k">Focus</span><span class="facts__v">AI/ML · Quant · Security</span></li>
+          <li><span class="facts__k">Stack</span><span class="facts__v">Python · C/C++ · CUDA · Go</span></li>
+          <li><span class="facts__k">Base</span><span class="facts__v">Ankara, Turkey</span></li>
+          <li><span class="facts__k">Open source</span><span class="facts__v">restorax · celery-fastapi · llm-coding-guardrails</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FOCUS -->
+    <section class="section" id="focus" aria-labelledby="focus-h">
+      <h2 class="section__title" id="focus-h"><span class="section__idx">02</span> Focus areas</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 class="card__title">Self-hosted AI & MLOps</h3>
+          <p>A homelab stack: LiteLLM adaptive routing, LangGraph, Claude Agent SDK, Langfuse, Prefect, ClickHouse, MinIO, Qdrant, Gitea — with cross-provider pricing audits and GPU VRAM protection checks.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Quant & Trading</h3>
+          <p>BTC volatility forecasting and vol-targeted spot portfolios. Pre-registered validation protocols and cryptographic seals to prevent leakage, packaged as <code>preregistered-research-guardrails</code>.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Security & Audit</h3>
+          <p>Automated IP-protection audits for mixed Python/C/C++/CUDA/Go codebases on open-source tooling: clang-tidy, Semgrep, CodeQL, Ghidra, SonarQube, Gitea Actions.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Edge & Hardware</h3>
+          <p>OpenAutoLink — edge-cloud vehicle monitoring on STM32 / Quectel / eSIM, Zephyr RTOS, UDS/CAN-bus. Early work on open-source CAD version control from a PLM/PDM angle.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-h">
+      <h2 class="section__title" id="projects-h"><span class="section__idx">03</span> Featured repositories</h2>
+      <div class="projects">
+        <article class="project">
+          <header class="project__head">
+            <h3 class="project__name">restorax</h3>
+            <span class="project__lang">Python · React</span>
+          </header>
+          <p class="project__desc">Open-source AI video & audio restoration platform: 25+ models, a pipeline DAG engine, a React Flow builder, a ComfyUI node pack, REST API, and CLI.</p>
+          <div class="tags">
+            <span class="tag">PyTorch</span><span class="tag">FastAPI</span><span class="tag">DAG</span><span class="tag">ComfyUI</span>
+          </div>
+          <a class="project__link" href="https://github.com/karailker/restorax">github.com/karailker/restorax ↗</a>
+        </article>
+
+        <article class="project">
+          <header class="project__head">
+            <h3 class="project__name">awesome-docker-compose</h3>
+            <span class="project__lang">Docker · Shell</span>
+          </header>
+          <p class="project__desc">Curated, production-ready Docker Compose configs for infrastructure — PostgreSQL, Kafka, Elasticsearch, Redis, RabbitMQ, MinIO, Qdrant, and more.</p>
+          <div class="tags">
+            <span class="tag">Docker</span><span class="tag">Infra</span><span class="tag">Self-host</span>
+          </div>
+          <a class="project__link" href="https://github.com/karailker/awesome-docker-compose">github.com/karailker/awesome-docker-compose ↗</a>
+        </article>
+
+        <article class="project">
+          <header class="project__head">
+            <h3 class="project__name">celery-fastapi</h3>
+            <span class="project__lang">Python</span>
+          </header>
+          <p class="project__desc">Automatic REST API generation for Celery tasks with FastAPI — registered tasks get endpoints for free, bridging the two frameworks.</p>
+          <div class="tags">
+            <span class="tag">FastAPI</span><span class="tag">Celery</span><span class="tag">REST</span>
+          </div>
+          <a class="project__link" href="https://github.com/karailker/celery-fastapi">github.com/karailker/celery-fastapi ↗</a>
+        </article>
+
+        <article class="project">
+          <header class="project__head">
+            <h3 class="project__name">wsl-docker-vhdx-shrinker</h3>
+            <span class="project__lang">PowerShell</span>
+          </header>
+          <p class="project__desc">A PowerShell utility for reclaiming disk space from bloated WSL2 Docker VHDX virtual disks.</p>
+          <div class="tags">
+            <span class="tag">WSL2</span><span class="tag">PowerShell</span><span class="tag">DevOps</span>
+          </div>
+          <a class="project__link" href="https://github.com/karailker/wsl-docker-vhdx-shrinker">github.com/karailker/wsl-docker-vhdx-shrinker ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section" id="stack" aria-labelledby="stack-h">
+      <h2 class="section__title" id="stack-h"><span class="section__idx">04</span> Tech stack</h2>
+      <div class="stack">
+        <div class="stack__group">
+          <h3 class="stack__cat">Languages</h3>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">C</span><span class="tag">C++</span><span class="tag">CUDA</span><span class="tag">Go</span><span class="tag">TypeScript</span><span class="tag">Shell</span><span class="tag">PowerShell</span>
+          </div>
+        </div>
+        <div class="stack__group">
+          <h3 class="stack__cat">AI / ML</h3>
+          <div class="tags">
+            <span class="tag">PyTorch</span><span class="tag">LangGraph</span><span class="tag">Claude Agent SDK</span><span class="tag">LiteLLM</span><span class="tag">Langfuse</span><span class="tag">Qdrant</span><span class="tag">ComfyUI</span>
+          </div>
+        </div>
+        <div class="stack__group">
+          <h3 class="stack__cat">Infra / DevOps</h3>
+          <div class="tags">
+            <span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Linux</span><span class="tag">MinIO</span><span class="tag">ClickHouse</span><span class="tag">Gitea</span><span class="tag">Prefect</span>
+          </div>
+        </div>
+        <div class="stack__group">
+          <h3 class="stack__cat">Security</h3>
+          <div class="tags">
+            <span class="tag">Semgrep</span><span class="tag">CodeQL</span><span class="tag">Ghidra</span><span class="tag">clang-tidy</span><span class="tag">SonarQube</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <h2 class="section__title" id="contact-h"><span class="section__idx">05</span> Contact</h2>
+      <p class="contact__lead">Open to collaboration on AI infra, quant systems, and security work.</p>
+      <a class="btn btn--primary" href="mailto:ilkerkara@outlook.com.tr">ilkerkara@outlook.com.tr</a>
+      <ul class="social social--center">
+        <li><a href="https://github.com/karailker" rel="me">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ilker-kara/" rel="me">LinkedIn</a></li>
+        <li><a href="https://twitter.com/ilkerkara_" rel="me">X / Twitter</a></li>
+        <li><a href="https://ilkerkara.com.tr" rel="me">ilkerkara.com.tr</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> İlker Kara · Built static, served from GitHub Pages.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

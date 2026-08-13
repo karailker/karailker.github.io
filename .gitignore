@@ -1,0 +1,14 @@
+# Claude / agent tooling
+.claude/
+.serena/
+CLAUDE.md
+AGENTS.md
+MEMORY.md
+
+# Plugins & skills
+plugins/
+skills/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
